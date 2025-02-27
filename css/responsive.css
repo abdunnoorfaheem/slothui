@@ -1,0 +1,56 @@
+@media (max-width: 575px) {
+
+   
+
+    nav{
+       
+       width: 100%;
+       margin: 0;
+   
+    box-sizing: border-box;
+    }
+
+    .nav-middle ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+        overflow: hidden;
+        
+    }
+    .nav-middle ul li{
+        padding: 15px;
+    }
+
+    .menue-bar{
+        display: block;
+    }
+
+    #menuItems{
+        transition: all 0.5s;
+    }
+
+    .nav-right{
+        display: none;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

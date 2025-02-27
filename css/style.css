@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+header{
+    /* background-color: #CBD5E1; */
+}
+
+/* navbar style start */
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+
+    margin: 0 60px;
+    
+
+
+}
+
+.nav-left {
+    /* width: 262px;
+    height: 32px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+.solothui {
+    width: 69px;
+    height: 17px;
+    margin-bottom: 7px;
+}
+
+.nav-title {
+    color: #1E293B;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.nav-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-middle ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-middle ul li {
+    margin-left: 12px;
+
+}
+
+.nav-middle ul li a {
+
+    text-decoration: none;
+    color: #475569;
+    font-weight: 600;
+
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+/* navbar btn style start*/
+
+.btnOne {
+    width: 99px;
+    height: 48px;
+    border-radius: 1234px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    /* background-color: #CBD5E1; */
+    font-weight: 500;
+    color: #475569;
+}
+
+.btnTwo {
+    width: 99px;
+    height: 48px;
+    border-radius: 1234px;
+    border: 1px;
+
+    background-color: #4F46E5;
+    color: white;
+    font-weight: 500;
+}
+
+/* navbar btn style end*/
+
+/* menubar style start */
+
+
+
+.menue-bar {
+
+    display: none;
+}
+
+.menue-bar i {
+    font-size: 25px;
+    
+}
+
+/* menubar style end */
+
+
+/* navbar style end */
